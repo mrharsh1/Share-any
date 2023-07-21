@@ -5,7 +5,9 @@
   "license": "MIT",
   "scripts": {
     "start": "nodemon server.js",
-    "server": "node server.js"
+    "server": "node server.js",
+    "dev": "npm install",
+    "build": "npm run build"
   },
   "dependencies": {
     "cors": "^2.8.5",
@@ -21,4 +23,5 @@
   "engines": {
     "node": ">=14.20.1"
   }
+ 
 }
